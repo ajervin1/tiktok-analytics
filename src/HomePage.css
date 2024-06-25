@@ -13,20 +13,7 @@
 	color: var(--primary);
 }
 
-/* Search Form */
-.search-form {
-	max-width: 640px;
-}
 
-.search-form input {
-	padding: .438rem 1rem;
-	background-color: #fff;
-	background-clip: padding-box;
-	border: 1px solid #d8d6de;
-	border-radius: .357rem;
-	color: var(--text-body);
-	
-}
 
 
 .hero {
