@@ -2,14 +2,18 @@
 
 import './index.css'
 import useFeatherIcons from "./hooks/useFeatherIcons.jsx";
-import TikTokLineChart from "./components/Charts/LineChart.jsx";
+
+import NavBar from "./components/NavBar/NavBar.jsx";
+import HeroContent from "./components/HeroContent/HeroContent.jsx";
 
 
 function App() {
 	useFeatherIcons()
 
 	return <main>
-		<TikTokLineChart />
+		<NavBar />
+		<HeroContent />
+
 	</main>
 }
 
