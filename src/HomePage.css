@@ -33,7 +33,7 @@
 	background-color: var(--home-page-bg);
 }
 
-.hero .headline {
+.hero .hero-headline {
 	max-width: 750px;
 	font-size: 50px;
 	font-weight: 700;
