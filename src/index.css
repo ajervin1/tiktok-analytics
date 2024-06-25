@@ -117,7 +117,7 @@ a {
 /*=============== REUSABLE CSS CLASSES ===============*/
 .page-container {
 	height: calc(100vh - 90px);
-	
+	padding-top: 2rem;
 }
 .container {
 	max-width: 960px;

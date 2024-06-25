@@ -2,17 +2,17 @@ import './index.css'
 import useFeatherIcons from "./hooks/useFeatherIcons.jsx";
 
 import NavBar from "./components/NavBar/NavBar.jsx";
-import SearchResults from "./components/SearchResults/SearchResults.jsx";
+import UserBanner from "./components/UserBanner/UserBanner.jsx";
 
 
 function App() {
-	console.log("hello")
+
 	useFeatherIcons()
 
 	return <main>
 		<NavBar/>
-		<div className="page-container">
-			<SearchResults />
+		<div className="page-container container">
+			<UserBanner />
 		</div>
 	</main>
 }
