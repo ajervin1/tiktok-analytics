@@ -2,14 +2,14 @@
 
 import './index.css'
 import useFeatherIcons from "./hooks/useFeatherIcons.jsx";
-import SearchResults from "./components/SearchResults/SearchResults.jsx";
+import TikTokLineChart from "./components/Charts/LineChart.jsx";
 
 
 function App() {
 	useFeatherIcons()
 
 	return <main>
-		<SearchResults />
+		<TikTokLineChart />
 	</main>
 }
 

@@ -13,6 +13,7 @@
 	--text-body: #6e6b7b;
 	--text-muted: #b9b9c3;
 	--text-dark: #2a2e30;
+	
 	--text-grey-60: #858FA1;
 	--text-grey-100: #344563;
 	--border-color: #d8d6de;
@@ -55,6 +56,10 @@ body {
 }
 #root, main {
 	height: 100%;
+	
+}
+main {
+	padding: 8rem;
 }
 
 .h1,h1 {
@@ -105,11 +110,11 @@ a {
 	line-height: 1.45;
 }
 
-img {
-	display: block;
-	max-width: 100%;
-	height: auto;
-}
+/*img {*/
+/*	display: block;*/
+/*	max-width: 100%;*/
+/*	height: auto;*/
+/*}*/
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
@@ -203,7 +208,6 @@ img {
 .card {
 	background-color: white;
 	box-shadow: var(--card-shadow);
-	margin-bottom: 2rem;
 	border-radius: .428rem;
 }
 
