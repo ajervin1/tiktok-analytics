@@ -1,0 +1,41 @@
+.list-group:last-child {
+	border-bottom-right-radius: calc(.428rem - 1px);
+	border-bottom-left-radius: calc(.428rem - 1px);
+}
+
+.list-group:first-child {
+	border-top-left-radius: calc(.428rem - 1px);
+	border-top-right-radius: calc(.428rem - 1px);
+}
+
+.list-group {
+	width: 600px;
+	margin: 2rem auto;
+}
+
+.list-group .list-group-item {
+	padding: .75rem 1.25rem;
+	background-color: #fff;
+	border: 1px solid rgba(34, 41, 47, .125);
+	margin-bottom: 1rem;
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	box-shadow: var(--card-shadow);
+	border-radius: .428rem;
+}
+
+.list-group-item .username {
+	color: var(--text-dark);
+}
+
+.list-group-item .nickname {
+	font-weight: 500;
+}
+
+.list-group-item .description {
+}
+
+.list-group .actions {
+	margin-left: auto;
+}

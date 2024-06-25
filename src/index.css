@@ -184,13 +184,14 @@ img {
 
 /* Avatar */
 .avatar {
-	width: 32px;
-	height: 32px;
+	width: 80px;
+	height: 80px;
 	border-radius: 50%;
 	background-color: var(--secondary);
 	font-size: .857rem;
 	font-weight: 600;
 	color: #fff;
+	overflow: hidden;
 }
 
 .avatar .avatar-img {
@@ -209,23 +210,5 @@ img {
 .card-shadow {
 	box-shadow: var(--card-shadow);
 }
-
-/* List Group */
-.list-group:last-child {
-	border-bottom-right-radius: calc(.428rem - 1px);
-	border-bottom-left-radius: calc(.428rem - 1px);
-}
-
-.list-group:first-child {
-	border-top-left-radius: calc(.428rem - 1px);
-	border-top-right-radius: calc(.428rem - 1px);
-}
-
-.list-group .list-group-item {
-	padding: .75rem 1.25rem;
-	background-color: #fff;
-	border: 1px solid rgba(34, 41, 47, .125);
-}
-
 
 
