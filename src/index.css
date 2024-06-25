@@ -115,6 +115,10 @@ a {
 /*}*/
 
 /*=============== REUSABLE CSS CLASSES ===============*/
+.page-container {
+	height: calc(100vh - 90px);
+	
+}
 .container {
 	max-width: 960px;
 	margin: 0 auto;
@@ -191,6 +195,7 @@ a {
 	background-color: white;
 	box-shadow: var(--card-shadow);
 	border-radius: .428rem;
+	border: 1px solid rgba(34, 41, 47, .125);
 }
 
 .card-shadow {
