@@ -1,0 +1,72 @@
+/*=============== Home Page ===============*/
+/* NavBar */
+.navbar {
+	background-color: white;
+}
+
+.navbar .navbar-shadow {
+	box-shadow: 0 4px 24px 0 rgba(34, 41, 47, .1);
+}
+
+.navbar .nav-link {
+	font-weight: 600;
+	color: var(--primary);
+}
+
+/* Search Form */
+.search-form {
+	max-width: 640px;
+}
+
+.search-form input {
+	padding: .438rem 1rem;
+	background-color: #fff;
+	background-clip: padding-box;
+	border: 1px solid #d8d6de;
+	border-radius: .357rem;
+	color: var(--text-body);
+	
+}
+
+
+.hero {
+	background-color: var(--home-page-bg);
+}
+
+.hero .headline {
+	max-width: 750px;
+	font-size: 50px;
+	font-weight: 700;
+	background-image: linear-gradient(45deg, #9a2ffe, #17cbff);
+	text-align: center;
+	margin-bottom: 1.5rem;
+}
+
+.hero .hero-text {
+	max-width: 660px;
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 1.8;
+	color: var(--text-body);
+	margin-bottom: 1rem;
+}
+
+/* Sections other than the hero */
+.home-section {
+}
+
+.home-section-darker {
+	background-color: rgba(0, 0, 0, .03);
+}
+
+
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+
+
+/* For medium devices */
+
+
+/* For large devices */

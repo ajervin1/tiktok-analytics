@@ -1,0 +1,38 @@
+.navbar {
+	background-color: white;
+	box-shadow: var(--card-shadow);
+}
+
+.navbar .navbar-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 90px;
+}
+
+.navbar-left {
+}
+
+.navbar-left .logo-wrapper {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+.navbar-left .logo {
+	width: 32px;
+	height: 32px;
+}
+
+.navbar-left .brand-text {
+	font-size: 2rem;
+	font-weight: 600;
+	letter-spacing: .5px;
+	word-spacing: .1px;
+}
+
+.navbar-right {
+}
+
+
+
