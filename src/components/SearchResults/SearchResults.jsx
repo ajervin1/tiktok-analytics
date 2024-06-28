@@ -1,6 +1,6 @@
 import './SearchResults.css'
 import { searchResults } from "../../../data/mock_data.js";
-function truncateString(str, num) {
+export function truncateString(str, num) {
 	if (str.length <= num) {
 		return str;
 	}

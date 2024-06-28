@@ -2,7 +2,8 @@ import './index.css'
 import useFeatherIcons from "./hooks/useFeatherIcons.jsx";
 
 import NavBar from "./components/NavBar/NavBar.jsx";
-import UserBanner from "./components/UserBanner/UserBanner.jsx";
+import PostList from "./components/PostList/PostList.jsx";
+import TikTokLineChart from "./components/Charts/LineChart.jsx";
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
 	return <main>
 		<NavBar/>
 		<div className="page-container container">
-			<UserBanner />
+			<TikTokLineChart />
 		</div>
 	</main>
 }

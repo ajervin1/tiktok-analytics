@@ -1,15 +1,18 @@
 .post-list {
+
 }
-.post-item {
+.post-list .post-item {
 	display: flex;
-	padding: 2rem;
 	overflow: hidden;
-	gap: 2rem;
 	height: auto;
+	margin-bottom: 1rem;
+	padding: 1rem 1rem;
+	align-items: center;
 }
 
-.post-left {
-	flex-basis: 20%;
+.post-item .post-left {
+	flex-basis: auto;
+	margin-right: 1rem;
 }
 .post-left .date {
 	padding: 10px 0px
@@ -21,11 +24,14 @@
 	object-fit: cover;
 }
 .image-container {
-	height: 220px;
-	width: 140px;
+	height: 100px;
+	width: 100px;
 	border-radius: 20px;
 	overflow: hidden;
 	box-shadow: var(--card-shadow);
+}
+.post-middle {
+	flex-basis: 20%;
 }
 .post-right {
 	flex-grow: 1;
@@ -37,14 +43,14 @@
 	justify-content: flex-start;
 }
 .data-item {
-	flex: 1 0 33%; /* Grow: 1, Shrink: 0, Basis: 33% */
+	flex: 1 0 25%; /* Grow: 1, Shrink: 0, Basis: 33% */
 	padding: 1rem;
 	box-sizing: border-box;
 }
 .data-item .title{
 	color: var(--secondary);
 	font-weight: 500;
-	margin-bottom: .5rem;
+	margin-bottom: .25rem;
 
 }
 
