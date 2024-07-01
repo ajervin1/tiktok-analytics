@@ -1,0 +1,37 @@
+/* Reusable Components */
+/* Button */
+.btn {
+	display: inline-block;
+	text-align: center;
+	background-color: transparent;
+	border: 1px solid transparent;
+	padding: .786rem 1.5rem;
+	border-radius: .358rem;
+	font-weight: 500;
+	font-size: 1.1rem;
+	line-height: 1;
+}
+
+.btn-primary {
+	background: var(--primary);
+	color: white;
+}
+
+.btn-outline-primary {
+	color: var(--primary);
+	border: 1px solild var(--primary);
+	background-color: transparent;
+
+}
+
+
+/* Card */
+.card {
+	background-color: white;
+	box-shadow: 0 4px 24px 0 rgba(34, 41, 47, .1);
+	border-radius: .428rem;
+	border: 1px solid rgba(34, 41, 47, .125);
+}
+.card-shadow {
+	box-shadow: var(--card-shadow);
+}

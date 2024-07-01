@@ -2,7 +2,7 @@ export default function Footer() {
 	return <footer className='footer container pt-2 pb-2'>
 		<div className="row justify-between">
 			<div className="col-4">
-				<h2 className={'text-primary mb-1'}>InsTrack</h2>
+				<h3 className={'text-primary mb-1'}>InsTrack</h3>
 				<h6 className={'mb-1 lh-2 text-dark'}>InsTrack offers powerful analytics and in-depth actionable insights for brands, influencers and agencies.</h6>
 				<h6 className="text-muted lh-15">1001 Woodward Ave, Suite 500 Detroit, MI 48226, USA</h6>
 			</div>
