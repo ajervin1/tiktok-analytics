@@ -1,4 +1,6 @@
 import './index.css'
+import './typography.css'
+import './grid.css'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from "./pages/HomePage.jsx";
 import ResultsPage from "./pages/ResultsPage.jsx";

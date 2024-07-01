@@ -1,5 +1,9 @@
+import HeroContent from "../components/HeroContent/HeroContent.jsx";
+import Footer from "../components/Footer.jsx";
+
 export default function HomePage() {
 	return <main className="home-page">
-		<h2>Home Page</h2>
+		<HeroContent />
+		<Footer />
 	</main>
 }
