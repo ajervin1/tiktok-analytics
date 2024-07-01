@@ -1,21 +1,17 @@
 import './index.css'
-import useFeatherIcons from "./hooks/useFeatherIcons.jsx";
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from "./pages/HomePage.jsx";
+import ResultsPage from "./pages/ResultsPage.jsx";
 import NavBar from "./components/NavBar/NavBar.jsx";
-import PostList from "./components/PostList/PostList.jsx";
-import TikTokLineChart from "./components/Charts/LineChart.jsx";
-
-
 function App() {
-
-	useFeatherIcons()
-
-	return <main>
-		<NavBar/>
-		<div className="page-container container">
-			<TikTokLineChart />
-		</div>
-	</main>
+  return (
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/results" element={<ResultsPage />} />
+      </Routes>
+    </Router>
+  );
 }
 
 export default App
