@@ -8,24 +8,6 @@ export default function BarChart() {
 			fontFamily: "Inter",
 		},
 		colors: [ '#7367f0' ],
-		dataLabels: {
-			enabled: true,
-			position: top,
-			offsetY: -20,
-			style: {
-				fontSize: '12px',
-				colors: ["#304758"]
-			}
-		},
-		plotOptions: {
-			bar: {
-
-				borderRadius: 4,
-				dataLabels: {
-					position: 'top', // top, center, bottom
-				},
-			}
-		},
 		xaxis: {
 			categories: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
 			position: 'bottom',
@@ -47,9 +29,6 @@ export default function BarChart() {
 			strokeDashArray: 3,
 		},
 		yaxis: {
-			lines: {
-				show: true
-			},
 			stepSize: 50,
 			labels: {
 				style: {
