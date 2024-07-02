@@ -2,7 +2,7 @@
 import './DataCard.css'
 export default function DataCard() {
 
-	return <div className="card-list">
+	return <div className="card-list mb-1">
 		<div className="card-list-container">
 			<article className="data-card">
 				<h2 className={ "value" }>100</h2>

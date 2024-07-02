@@ -16,26 +16,26 @@ const userInfo = {
 export default function UserBanner() {
 
 
-	return <div className="user-banner card">
+	return <div className="user-banner card mb-1">
 		<div className="profile-container">
 			<img src={ userInfo.avatarLarger } alt=""/>
 		</div>
 		<div className="user-meta">
-			<h2 className="username">{userInfo.uniqueId}</h2>
-			<h6 className="nickname">{userInfo.nickname}</h6>
-			<p className="description">{userInfo.sig}</p>
+			<h2 className="font-semi-bold mb-0">{userInfo.uniqueId}</h2>
+			<h5 className="font-medium mb-0">{userInfo.nickname}</h5>
+			<p className="text-secondary">{userInfo.sig}</p>
 		</div>
 		<div className="user-stats stats-row">
-			<article className="stat-item">
-				<h6 className={ 'headline' }>Total Likes</h6>
+			<article className="stat-item mb-1 text-center">
+				<h6 className="mb-0 text-secondary">Total Likes</h6>
 				<h3 className={ 'value' }>{userInfo.heartCount}</h3>
 			</article>
-			<article className="stat-item">
-				<h6 className={ 'headline' }>Followers</h6>
+			<article className="stat-item text-center">
+				<h6 className={ 'text-secondary mb-0' }>Followers</h6>
 				<h3 className={ 'value' }>{userInfo.followerCount}</h3>
 			</article>
-			<article className="stat-item">
-				<h6 className={ 'headline' }>Total Videos</h6>
+			<article className="stat-item text-center">
+				<h6 className={ 'text-secondary mb-0' }>Total Videos</h6>
 				<h3 className={ 'value' }>{userInfo.videoCount}</h3>
 			</article>
 		</div>

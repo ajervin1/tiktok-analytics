@@ -24,7 +24,6 @@ export default function SearchResults() {
 					</div>
 					<div className="actions">
 						<Link to={`/user/${author.uniqueId}`} className="btn btn-primary">View Data</Link>
-						{/*<a href={`/user/search?uniqueid=${author.uniqueId}`} className="btn btn-primary">View Data</a>*/}
 					</div>
 				</li>
 			}) }

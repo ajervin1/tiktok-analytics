@@ -11,7 +11,6 @@
 	border-radius: 50% !important;
 	overflow: hidden;
 	box-shadow: var(--card-shadow);
-
 }
 
 .profile-container img {
@@ -58,7 +57,6 @@
 
 .stats-row .stat-item {
 	flex: 0 0 50%;
-	margin-bottom: .5rem;
 }
 
 .details .headline {
