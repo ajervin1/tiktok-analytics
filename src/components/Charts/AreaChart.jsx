@@ -1,6 +1,7 @@
 import Chart from "react-apexcharts";
 import './chart.css'
-export default function ApexBarChart() {
+
+export default function AreaChart() {
 	let options = {
 		chart: {
 			id: "basic-bar",
@@ -11,7 +12,7 @@ export default function ApexBarChart() {
 		dataLabels: {
 			enabled: false
 		},
-		colors: ['#7367f0',], // Add your custom colors here
+		colors: [ '#7367f0', ], // Add your custom colors here
 		xaxis: {
 			labels: {
 				style: {
@@ -36,12 +37,12 @@ export default function ApexBarChart() {
 	let series = [
 		{
 			name: "Followers",
-			data: [30, 40, 45, 50, 49, 60, 70, 91]
+			data: [ 30, 40, 45, 50, 49, 60, 70, 91 ]
 		}
 	]
 
 	return <div className="card chart-item">
-		<h6 className={"font-semi-bold"}>Following</h6>
-		<Chart options={options} series={series} type={'area'} width="100%" height={300} />
+		<h6 className={ "font-semi-bold" }>Following</h6>
+		<Chart options={ options } series={ series } type={ 'area' } width="100%" height={ 300 }/>
 	</div>
 }
