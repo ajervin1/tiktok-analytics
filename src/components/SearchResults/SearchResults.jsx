@@ -1,5 +1,4 @@
 import './SearchResults.css'
-import { searchResults } from "../../../data/mock_data.js";
 import { Link } from "react-router-dom";
 
 export function truncateString( str, num ) {
@@ -9,23 +8,30 @@ export function truncateString( str, num ) {
 	return str.slice(0, num) + '...';
 }
 
-export default function SearchResults() {
+export default function SearchResults( { users } ) {
 
 	return <div className="results">
 		<ul className="list-group">
-			{ searchResults.map(author => {
-				return <li key={ author.id } className="list-group-item card">
+			{ users.map(user => {
+				return <li key={ user._id } className="list-group-item card">
 					<div className="avatar-container">
-						<img className={ 'avatar-img' } src={ author.avatarLarger } alt=""/>
+						<img className={ 'avatar-img' } src={ user.avatarLarger } alt=""/>
 					</div>
 					<div className="user-info">
-						<h4 className="text-primary font-medium mb-1">{ author.uniqueId }</h4>
-						<h6 className="mb-1">{ author.nickname }</h6>
-						<p className="text-secondary">{ truncateString(author.signature, 50) }</p>
+						<h4 className="text-primary font-medium mb-1">{ user.uniqueId }</h4>
+						<h6 className="mb-1">{ user.nickname }</h6>
+						<p className="text-secondary text-small">{ truncateString(user.sig, 30) }</p>
 					</div>
 					<div className="actions">
-						<Link to={ `/user/${ author.uniqueId }` } className="btn btn-primary">View Data</Link>
-					</div>
+						<Link
+							to={ {
+								pathname: `/user/${ user.uniqueId }`,
+								state: { user: user }
+							} }
+							className="btn btn-primary"
+						>
+							View Data
+						</Link></div>
 				</li>
 			}) }
 

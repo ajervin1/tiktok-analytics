@@ -1,6 +1,5 @@
 /* Search Form */
 .search-form {
-	max-width: 640px;
 	display: flex;
 	margin: 1rem auto;
 	align-content: stretch;
@@ -20,6 +19,8 @@
 	font-size: 1.143rem;
 	line-height: 1.25;
 	padding-left: 10px;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 	
 	
 }
@@ -34,8 +35,7 @@
 	border-radius: .357rem;
 	border-top-left-radius: 0;
 	border-bottom-left-radius: 0;
-	height: 40px;
-	width: 40px;
+	padding: 1rem;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -43,6 +43,7 @@
 	border: 1px solid var(--border-color);
 	border-left: 0;
 	color: white;
+	cursor: pointer;
 }
 
 .icon-container .icon {

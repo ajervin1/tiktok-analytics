@@ -78,4 +78,7 @@ img {
 .body-background {
 	background: #f8f8f8;
 }
+section {
+	margin-bottom: 1rem;
+}
 

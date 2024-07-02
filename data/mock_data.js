@@ -1,34 +1,57 @@
+// User Info Results
+export const userInfo = {
+	"diggCount": 0,
+	"followerCount": 1600000,
+	"followingCount": 364,
+	"friendCount": 290,
+	"heart": 46700000,
+	"heartCount": 46700000,
+	"videoCount": 606,
+	"avatarLarger": "https://p16-pu-sign-useast8.tiktokcdn-us.com/tos-useast5-avt-0068-tx/cb76f83d4c0a6c4d8a4d861bd3269845~c5_1080x1080.jpeg?lk3s=a5d48078&nonce=74987&refresh_token=f40e97ac359c3460e51ab1c4ec3b44a8&x-expires=1720065600&x-signature=LQl%2BWfDN0RmADhlkdINBMbiPCzY%3D&shp=a5d48078&shcp=81f88b70",
+	"nickname": "Ava Justin",
+	"sig": "FOLLOW INSTA: @avajustin\nSubscribe to my snap: @actress.avaj",
+	"uniqueId": "avajustin",
+	"userId": "MS4wLjABAAAAL4SwMC2HkCB1V8GUN9EVHnye1-IMQwbte0msHk8lSSQ"
+}
 // Search Results Page
 export const searchResults = [
 	{
-		"avatarLarger": "https://p16-pu-sign-useast8.tiktokcdn-us.com/tos-useast8-avt-0068-tx2/eaf66a39affdabf4b7d5c989db41bbfd~c5_1080x1080.jpeg?lk3s=a5d48078&nonce=21245&refresh_token=095f3eb5be7a9d91c71a8b0731a17838&x-expires=1719464400&x-signature=2Cq8EmruroNixI3fpgZbba6olqw%3D&shp=a5d48078&shcp=81f88b70",
-		"id": "6724529785801901062",
-		"nickname": "olivia ponton",
-		"secUid": "MS4wLjABAAAAkHqDeyBnVyzzQuNOTvVovc8nECyp7ltnevHrJ7M4m865FlyzYPz-wglzujTcQyd6",
-		"signature": "☆.。.・°☆.。.:*・°☆\n🏳️‍🌈\nimg wurrrlldwide",
-		"uniqueId": "iamoliviaponton",
-		"verified": true
+		"_id": "MS4wLjABAAAA962dYCo5dgyneVl0_frnld6vyLFUt3OyahG-VHr1naj1jzmdFM116-QrIhhlBj-a",
+		"__v": 0,
+		"avatarLarger": "https://p16-pu-sign-useast8.tiktokcdn-us.com/tos-useast5-avt-0068-tx/7315974388413628458~c5_1080x1080.jpeg?lk3s=a5d48078&nonce=6489&refresh_token=e5abd78718a94b75b6099e7e7f6b9606&x-expires=1720065600&x-signature=38EKUpBjWt4gsLn8SwCy1bVyxEM%3D&shp=a5d48078&shcp=81f88b70",
+		"createdAt": "2024-07-02T03:58:47.461Z",
+		"diggCount": 0,
+		"followerCount": 3095,
+		"followingCount": 1,
+		"friendCount": 1,
+		"heart": 267400,
+		"heartCount": 267400,
+		"nickname": "Ava’s 2nd Account",
+		"sig": "2nd acc😁",
+		"uniqueId": "avajustin02",
+		"updatedAt": "2024-07-02T04:00:49.928Z",
+		"userId": "MS4wLjABAAAA962dYCo5dgyneVl0_frnld6vyLFUt3OyahG-VHr1naj1jzmdFM116-QrIhhlBj-a",
+		"videoCount": 13
 	},
 	{
-		"avatarLarger": "https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/cb4a301f5635b05d2950656fa114ee69~c5_1080x1080.jpeg?lk3s=a5d48078&nonce=29666&refresh_token=5710a15cb80c7b57698e21b81bba5eea&x-expires=1719464400&x-signature=p0CjPIuKMeMveGxiLSPY69O6sc0%3D&shp=a5d48078&shcp=81f88b70",
-		"id": "6686616047858844678",
-		"nickname": "Sommer Ray",
-		"secUid": "MS4wLjABAAAAOEtoa5OuORWXNFsAlK416JT6fjI_gJN8DiQaPSWu-EMHSyvXmmGfirIEnH1Vq8-w",
-		"signature": "i’m not being serious",
-		"uniqueId": "sommerray",
-		"verified": true
-	},
-	{
-		"avatarLarger": "https://p19-pu-sign-useast8.tiktokcdn-us.com/tos-useast5-avt-0068-tx/7351308670174494763~c5_1080x1080.jpeg?lk3s=a5d48078&nonce=74214&refresh_token=3bab78cfa22cf0d94c6c45e361b71393&x-expires=1719468000&x-signature=cpFLgQ5Xonk6ONSnytyCsK74MWA%3D&shp=a5d48078&shcp=81f88b70",
-		"id": "6669464590273331205",
-		"nickname": "kat brito",
-		"secUid": "MS4wLjABAAAADVYEaateg_bkP0hFcvN0SC51cH898iFQbZRCN_2pdUlUAtj6C7z0LD6PDfXWAkxY",
-		"signature": "all sorts of everything\n📧 katherinebrito12@gmail.com\nAmazon store front \n⬇️ ⬇️",
-		"uniqueId": "katbritoo",
-		"verified": false
+		"_id": "MS4wLjABAAAAL4SwMC2HkCB1V8GUN9EVHnye1-IMQwbte0msHk8lSSQ",
+		"__v": 0,
+		"avatarLarger": "https://p16-pu-sign-useast8.tiktokcdn-us.com/tos-useast5-avt-0068-tx/cb76f83d4c0a6c4d8a4d861bd3269845~c5_1080x1080.jpeg?lk3s=a5d48078&nonce=74987&refresh_token=f40e97ac359c3460e51ab1c4ec3b44a8&x-expires=1720065600&x-signature=LQl%2BWfDN0RmADhlkdINBMbiPCzY%3D&shp=a5d48078&shcp=81f88b70",
+		"createdAt": "2024-07-02T04:01:22.057Z",
+		"diggCount": 0,
+		"followerCount": 1600000,
+		"followingCount": 364,
+		"friendCount": 290,
+		"heart": 46700000,
+		"heartCount": 46700000,
+		"nickname": "Ava Justin",
+		"sig": "FOLLOW INSTA: @avajustin\nSubscribe to my snap: @actress.avaj",
+		"uniqueId": "avajustin",
+		"updatedAt": "2024-07-02T04:01:22.057Z",
+		"userId": "MS4wLjABAAAAL4SwMC2HkCB1V8GUN9EVHnye1-IMQwbte0msHk8lSSQ",
+		"videoCount": 606
 	}
 ]
-
 // Top Posts Components
 export const postsResults = [
 	{
@@ -469,26 +492,21 @@ export const postsResults = [
 export const averagePlayCountResults = [
 	{
 		"averagePlayCount": 1800000,
-		"month": 12,
-		"year": 2022
+		"date": "2022-12-01T00:00:00.000Z"
 	},
 	{
 		"averagePlayCount": 749.2857142857143,
-		"month": 6,
-		"year": 2024
+		"date": "2024-06-01T00:00:00.000Z"
 	}
 ]
 // Total Play Count
 export const totalPlayCountResults = [
 	{
-		"averagePlayCount": 1800000,
-		"month": 12,
-		"year": 2022
+		"totalPlayCount": 1800000,
+		"date": "2022-12-01T00:00:00.000Z"
 	},
 	{
-		"averagePlayCount": 749.2857142857143,
-		"month": 6,
-		"year": 2024
+		"totalPlayCount": 5245,
+		"date": "2024-06-01T00:00:00.000Z"
 	}
 ]
-

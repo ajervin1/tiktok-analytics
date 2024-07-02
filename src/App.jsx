@@ -7,13 +7,8 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import HomePage from "./pages/HomePage.jsx";
 import SearchResultsPage from "./pages/SearchResultsPage.jsx";
 import NavBar from "./components/NavBar/NavBar.jsx";
-import {useEffect} from "react";
 import DetailsPage from "./pages/DetailsPage.jsx";
-
 function App() {
-	useEffect(() => {
-		feather.replace();
-	}, [])
 	return (
 		<Router>
 			<NavBar/>
