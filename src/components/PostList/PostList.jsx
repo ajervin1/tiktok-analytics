@@ -9,7 +9,7 @@ export default function PostList({posts}) {
 			return <article key={ post.id } className={ 'post-item card' }>
 				<div className="post-left">
 					<div className="image-container">
-						<img src={ dynamicCover } alt="" className={ 'post-image' }/>
+						<img src={ post.video.dynamicCover } alt="" className={ 'post-image' }/>
 					</div>
 					{/*<p className={ "date" }>{ new Date(post.createdAt).toLocaleDateString() }</p>*/}
 				</div>

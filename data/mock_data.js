@@ -491,22 +491,47 @@ export const postsResults = [
 // Average Play Count
 export const averagePlayCountResults = [
 	{
-		"averagePlayCount": 1800000,
-		"date": "2022-12-01T00:00:00.000Z"
+		"averagePlayCount": 400,
+		"date": "2024-02-01T00:00:00.000Z"
 	},
 	{
-		"averagePlayCount": 749.2857142857143,
+		"averagePlayCount": 749,
 		"date": "2024-06-01T00:00:00.000Z"
-	}
+	},
+	{
+		"averagePlayCount": 800,
+		"date": "2024-07-01T00:00:00.000Z"
+	},
+	{
+		"averagePlayCount": 2000,
+		"date": "2024-08-01T00:00:00.000Z"
+	},
+	{
+		"averagePlayCount": 4000,
+		"date": "2024-09-01T00:00:00.000Z"
+	},
 ]
 // Total Play Count
+
 export const totalPlayCountResults = [
 	{
-		"totalPlayCount": 1800000,
-		"date": "2022-12-01T00:00:00.000Z"
+		"totalPlayCount": 10000,
+		"date": "2024-02-01T00:00:00.000Z"
 	},
 	{
-		"totalPlayCount": 5245,
+		"totalPlayCount": 8000,
 		"date": "2024-06-01T00:00:00.000Z"
-	}
+	},
+	{
+		"totalPlayCount": 7000,
+		"date": "2024-07-01T00:00:00.000Z"
+	},
+	{
+		"totalPlayCount": 2000,
+		"date": "2024-08-01T00:00:00.000Z"
+	},
+	{
+		"totalPlayCount": 15000,
+		"date": "2024-09-01T00:00:00.000Z"
+	},
 ]

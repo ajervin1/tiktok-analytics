@@ -26,8 +26,8 @@ export default function SearchResults( { users } ) {
 						<Link
 							to={ {
 								pathname: `/user/${ user.uniqueId }`,
-								state: { user: user }
 							} }
+							state={{user: user}}
 							className="btn btn-primary"
 						>
 							View Data

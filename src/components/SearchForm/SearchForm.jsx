@@ -7,8 +7,8 @@ export default function SearchForm() {
 	const inputRef = useRef();
 	function handleSubmit(e) {
 		e.preventDefault();
-		const term = inputRef.current.value;
-		navigate(`/search?term=${term}`)
+		const query = inputRef.current.value;
+		navigate(`/search?username=${query}`)
 	}
 
 	return <form className="search-form" onSubmit={handleSubmit}>

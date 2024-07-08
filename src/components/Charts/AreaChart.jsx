@@ -7,7 +7,7 @@ export default function AreaChart() {
 			id: "basic-bar",
 			toolbar: { show: false },
 			fontFamily: "Inter",
-			foreColor: "#7367f0",
+
 		},
 		dataLabels: {
 			enabled: false

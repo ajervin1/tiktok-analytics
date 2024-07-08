@@ -1,17 +1,42 @@
 import Chart from "react-apexcharts";
+import { averagePlayCountResults } from "../../../data/mock_data.js";
 
-export default function BarChart() {
+export default function BarChart({seriesData, seriesName, title}) {
+
+	let series = [
+		{
+			name: seriesName,
+			data: seriesData
+		}
+	]
 	let options = {
 		chart: {
 			id: "basic-bar",
 			toolbar: { show: false },
 			fontFamily: "Inter",
 		},
+		plotOptions: {
+			bar: {
+				borderRadius: 1,
+				dataLabels: {
+					position: 'top', // top, center, bottom
+				},
+			}
+		},
+		dataLabels: {
+			enabled: true,
+			offsetY: -20,
+			style: {
+				fontSize: '12px',
+				colors: ["#304758"]
+			}
+		},
 		colors: [ '#7367f0' ],
 		xaxis: {
-			categories: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
-			position: 'bottom',
+			type: 'category',
+			position: "bottom",
 			labels: {
+				rotate: 0,
 				style: {
 					colors: '#ccc', // Change the color of y-axis labels here
 				},
@@ -29,7 +54,8 @@ export default function BarChart() {
 			strokeDashArray: 3,
 		},
 		yaxis: {
-			stepSize: 50,
+			tickAmount: 2,
+			decimalsInFloat: 0,
 			labels: {
 				style: {
 					colors: '#ccc', // Change the color of y-axis labels here
@@ -37,14 +63,8 @@ export default function BarChart() {
 			},
 		},
 	}
-	let series = [
-		{
-			name: "series-1",
-			data: [ 30, 40, 45, 50, 49, 60, 70, 91, 200, 30, 50, 60 ]
-		}
-	]
 	return <div className="card chart-item">
-		<h6 className={ "font-semi-bold" }>Following</h6>
+		<h6 className={ "font-semi-bold" }>{title}</h6>
 		<Chart
 			options={ options }
 			series={series }
