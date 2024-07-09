@@ -6,7 +6,6 @@ import { searchUser } from "../../api/api.js";
 
 export default function SearchResultsPage() {
 
-
 	const [ results, setResults ] = useState([])
 	const [ searchParams ] = useSearchParams();
 	const username = searchParams.get('username');

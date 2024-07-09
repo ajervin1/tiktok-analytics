@@ -41,7 +41,7 @@ export default function DetailsPage() {
 		fetchData()
 	}, [])
 
-	return <main className="details-page container pt-1">
+	return <main className="details-page container pt-1 pb-4">
 		{/* User Banner */ }
 		<section className="user-banner-section mb-2">
 			<UserBanner user={ user }/>

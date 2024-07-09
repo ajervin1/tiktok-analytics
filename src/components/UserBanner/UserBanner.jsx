@@ -16,7 +16,7 @@ export default function UserBanner({user}) {
 		<div className="user-stats stats-row">
 			<article className="stat-item mb-1">
 				<h6 className="mb-0 text-secondary">Total Likes</h6>
-				<h3 className={ 'value' }>{ user.heartCount }</h3>
+				<h3 className={ 'value' }>{ user.heart }</h3>
 			</article>
 			<article className="stat-item">
 				<h6 className={ 'text-secondary mb-0' }>Followers</h6>
